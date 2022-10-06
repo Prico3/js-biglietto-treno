@@ -27,4 +27,6 @@ if (age <= 17) {
 console.log(ticketPrice);
 
 //Prezzo finale
+document.getElementById("km").innerHTML = km;
+document.getElementById("age").innerHTML = age;
 document.getElementById("finalPrice").innerHTML = ticketPrice;
