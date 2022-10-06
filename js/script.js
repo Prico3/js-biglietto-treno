@@ -29,4 +29,4 @@ console.log(ticketPrice);
 //Prezzo finale
 document.getElementById("km").innerHTML = km;
 document.getElementById("age").innerHTML = age;
-document.getElementById("finalPrice").innerHTML = ticketPrice;
+document.getElementById("finalPrice").innerHTML = ticketPrice.toFixed(2);
